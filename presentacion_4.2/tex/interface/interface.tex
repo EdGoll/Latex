@@ -1,0 +1,29 @@
+\section{Interface}
+\begin{frame}{Interface}
+\begin{itemize}{}
+\item Son  superclases en las cuales la totalidad de sus m\'etodos se definen como  m\'etodos abstractos, que deben ser implementados en las subclases en las cuales la interface es implementada.
+\item La interface define y conoce que métodos tiene, pero no sabe como es su implementaci\'n.
+\item Por ejemplo la Interfaces Animal define el m\'etodo eat() sin conocer la l\'ogica
+ de como cada tipo de animal se alimenta, luego todas las clases de animal que implementen
+ \'esta interface definiran de distinta forma el m\'etodo eat() dependiendo de la naturaleza de cada animal.
+\item En una interface en Java sus m\'etodos siempre  ser\'an p\'ublicos y abstractos.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Ejemplo.}
+	\begin{block}{Clase Main}
+\lstinputlisting[language=Java,caption={},numbers=none]{resources/interface/IntegranteSeleccionFutbol.java}
+\end{block}
+\end{frame}
+
+\begin{frame}{Ejemplo.}
+	\begin{block}{Clase Main}
+\lstinputlisting[language=Java,caption={},numbers=none]{resources/interface/Futbolista.java}
+\end{block}
+\end{frame}
+
+\begin{frame}{Ejemplo.}
+	\begin{block}{Clase Main}
+\lstinputlisting[language=Java,caption={},numbers=none]{resources/interface/Entrenador.java}
+\end{block}
+\end{frame}
