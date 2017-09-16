@@ -1,0 +1,5 @@
+\select@language {spanish}
+\beamer@sectionintoc {2}{Manejo de Excepciones}{3}{0}{1}
+\beamer@sectionintoc {3}{Wrapper class}{12}{0}{2}
+\beamer@sectionintoc {4}{API}{15}{0}{3}
+\beamer@sectionintoc {5}{TIPs}{20}{0}{4}
